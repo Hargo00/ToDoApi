@@ -19,7 +19,7 @@ namespace ToDoApi.Controllers
         {
             _context = context;
         }
-
+        //Sync check
         // GET: api/ToDoItems
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ToDoItem>>> GetTodoItems()
